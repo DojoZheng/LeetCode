@@ -12,11 +12,8 @@ using namespace std;
 enum Status{kValid = 0, kInValid};
 int g_nStatus = kValid;
 
-enum Status {kInvalid = 0, kValid};
-int g_nStatus = kValid;
-
 int myAtoi(string str){
-    g_nStatus = kInvalid;
+    g_nStatus = kInValid;
     
     //judge empty
     if(str.empty()) return 0;
