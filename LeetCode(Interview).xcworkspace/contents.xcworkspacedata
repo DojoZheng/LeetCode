@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:-08StringToInteger/-08StringToInteger.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:-15ThreeSum/-15ThreeSum.xcodeproj">
    </FileRef>
    <FileRef
