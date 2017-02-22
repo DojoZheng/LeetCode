@@ -61,11 +61,27 @@ vector<int> twoSumMap(vector<int> &numbers, int target)
     return result;
 }
 
-//vector<int> twoSumSort(vector<int> &numbers, int target){
-//    
+//vector<int> twoSumSort(vector<int> &numbers, int target)
+//{
+//    sort(numbers.begin(), numbers.end());
+//    vector<int> result;
+//    int i = 0, j = (int)numbers.size() - 1;
+//    while(i < j){
+//        if(numbers[i] + numbers[j] == target){
+//            result.push_back(i);
+//            result.push_back(j);
+//            return result;
+//        }
+//        i++;
+//        j--;
+//    }
+//    return result;
 //}
 
 int main(int argc, const char * argv[]) {
+    int arr[] = {3, 2, 4};
+    vector<int> avec(arr, arr + 3);
+    vector<int> result = twoSumSort(avec, 6);
     
     return 0;
 }
